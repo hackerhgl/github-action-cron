@@ -1,7 +1,9 @@
 on:
-  push:
-    branches:
-      - 'master'
+  schedule:
+    - cron: "*/5 * * * *"
+  # push:
+  #   branches:
+  #     - 'master'
 
 name: On Commit Trigger
 jobs:
