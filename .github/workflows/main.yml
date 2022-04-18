@@ -5,7 +5,7 @@ on:
   #   branches:
   #     - 'master'
 
-name: On Commit Trigger
+name: CRON Trigger
 jobs:
   trigger:
     name: Ubuntu runner
