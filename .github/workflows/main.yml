@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16.13.1
       - name: Execute script
-        run: node start
+        run: npm start
       - name: Run github
         run: |
           git config user.name hackerhgl
