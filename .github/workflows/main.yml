@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
 
 name: On Commit Trigger
 jobs:
